@@ -6,6 +6,7 @@
 
 body {
   font-family: "poppins";
+  overflow-x: hidden;
 }
 
 .navigation {
@@ -45,13 +46,83 @@ body {
 
 .s1-content {
   width: 1079px;
-  height: 359px;
-  margin: 0 auto;
+  height: 80vh;
+  margin-left: 70px;
+  margin-top: 70px;
 
   display: flex;
   justify-content: space-around;
 }
 
 .s1-info {
-  width: 629px;
+  width: 615px;
+}
+
+.s1-title {
+  font-weight: 500;
+  font-size: 48px;
+
+  color: #000000;
+}
+
+.s1-par {
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 20px;
+
+  color: #000000;
+}
+
+.btn {
+  width: 222px;
+  height: 66px;
+  border: none;
+  font-size: 24px;
+
+  background: #ffc1b4;
+  border-radius: 5px;
+  margin-top: 90px;
+  cursor: pointer;
+}
+
+.section2 {
+  width: 1280px;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  background: #18183f;
+}
+
+.img-part {
+  width: 328px;
+  height: 469px;
+
+  object-fit: cover;
+}
+
+.s2-content {
+  width: 665px;
+  /* position: relative;
+  left: 50%;
+  transform: translateX(-50%); */
+}
+
+.left-img {
+  position: relative;
+  bottom: 60px;
+}
+
+.right-img {
+  position: relative;
+  top: 65px;
+}
+
+.location {
+  width: 86px;
+  position: absolute;
+  left: 50.65%;
+  transform: translateX(-52%);
+  margin-top: 15%;
 }
