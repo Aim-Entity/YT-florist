@@ -126,3 +126,56 @@ body {
   transform: translateX(-52%);
   margin-top: 15%;
 }
+
+.section3 {
+  width: 1280px;
+  height: 100vh;
+
+  background: #e8dccb;
+}
+
+.cards {
+  display: flex;
+  width: 1090px;
+  justify-content: space-around;
+
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card {
+  width: 320px;
+  height: 545px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.card-icon {
+  width: 144px;
+  height: 115px;
+
+  margin-top: 40px;
+}
+
+.card-title {
+  font-size: 28px;
+  margin-top: 55px;
+
+  color: #383737;
+}
+
+.card-par {
+  width: 254px;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  margin-top: 40px;
+
+  color: #383737;
+}
