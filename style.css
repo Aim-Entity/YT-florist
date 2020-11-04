@@ -81,6 +81,7 @@ body {
 
   background: #ffc1b4;
   border: solid 2px #ffc1b4;
+  /* Border Needed For Animation */
   border-radius: 5px;
   margin-top: 90px;
   cursor: pointer;
@@ -152,6 +153,7 @@ body {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+  /* Center The Container Vertically */
 }
 
 .card {
