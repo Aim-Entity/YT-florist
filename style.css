@@ -80,9 +80,12 @@ body {
   font-size: 24px;
 
   background: #ffc1b4;
+  border: solid 2px #ffc1b4;
   border-radius: 5px;
   margin-top: 90px;
   cursor: pointer;
+
+  transition: 200ms ease-in;
 }
 
 .section2 {
@@ -112,11 +115,15 @@ body {
 .left-img {
   position: relative;
   bottom: 60px;
+
+  transition: ease-in 150ms;
 }
 
 .right-img {
   position: relative;
-  top: 65px;
+  top: 60px;
+
+  transition: ease-in 250ms;
 }
 
 .location {
@@ -125,6 +132,8 @@ body {
   left: 50.65%;
   transform: translateX(-52%);
   margin-top: 15%;
+
+  cursor: pointer;
 }
 
 .section3 {
@@ -146,6 +155,7 @@ body {
 }
 
 .card {
+  position: relative;
   width: 320px;
   height: 545px;
   display: flex;
@@ -154,6 +164,8 @@ body {
 
   background: #ffffff;
   border-radius: 20px;
+
+  transition: ease 300ms;
 }
 
 .card-icon {
@@ -178,4 +190,19 @@ body {
   margin-top: 40px;
 
   color: #383737;
+}
+
+.ball {
+  position: relative;
+}
+
+.left-leaf {
+  transition: ease 400ms;
+}
+
+.s1-text {
+  position: relative;
+  top: 80px;
+  opacity: 0;
+  transition: ease 1500ms;
 }
